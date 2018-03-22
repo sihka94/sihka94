@@ -379,10 +379,25 @@ hr {
   height: 100%; }
 
 .contact-map {
+  position: relative;
   height: inherit;
   background: url("../images/section-contact/map.png") no-repeat;
   background-size: 50% 100%; }
-
+.contact-map:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #00a1eb;
+  opacity: 0.5;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.contact-map:hover:before{
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
 .contact-content__title {
   color: #fff; }
 
