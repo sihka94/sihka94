@@ -464,6 +464,8 @@ footer .row{
 
 }
 @media screen and (max-device-width: 992px){
+header {
+  background-size: cover;}
 .header-phone{
   display: none;
   }
