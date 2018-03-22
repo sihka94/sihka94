@@ -449,6 +449,9 @@ footer .row{
 
 }
 @media screen and (max-device-width: 992px){
+.header-phone{
+  display: none;
+  }
 .header-menu{
   display: none;
   position: fixed;
@@ -478,8 +481,8 @@ footer .row{
 .mobile-menu{
   display: block;
   position: absolute;
-  top:32px;
-  right:56px;
+  top:30px;
+  right:30px;
 }
 .mobile-close{
   position: absolute;
